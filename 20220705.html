@@ -38,11 +38,11 @@
             vertical-align: middle;
         }
         
-        ul {
+        nav>ul {
             list-style: none;
         }
         
-        li {
+        nav>ul>li {
             display: inline-block;
             margin: 20px 40px;
             font-weight: 600;
@@ -50,12 +50,12 @@
             font-size: 20px;
         }
         
-        li:first-child {
+        nav>ul>li:first-child {
             margin-left: 300px;
             text-decoration: underline solid #ffff;
         }
         
-        li:last-child {
+        nav>ul>li:last-child {
             margin-right: 0px;
         }
         
@@ -195,6 +195,10 @@
             vertical-align: top;
             padding-top: 15px;
         }
+        
+        td>ul {
+            list-style: none;
+        }
     </style>
 </head>
 
@@ -267,25 +271,61 @@
             <table>
                 <tr>
                     <td class="column">
-                        <h2>Luxury</h2>
-                        <span>Hotels</span>
-                        <p>
-                            497 Evergreen Rd.Roseville, CA 956773<br> +44 345 678 903<br> luxury_hotels@gmail.com
-                        </p>
+                        <ul>
+                            <li>
+                                <h2>Luxury</h2>
+
+
+                            </li>
+                            <span>Hotels</span>
+                            <li>
+
+                            </li>
+                            <li>
+                                <p>
+                                    497 Evergreen Rd.Roseville, CA 956773<br> +44 345 678 903<br> luxury_hotels@gmail.com
+                                </p>
+                            </li>
+                        </ul>
                     </td>
                     <td class="column">
-                        <span> About Us</span><br>
-                        <span>Contact</span><br>
-                        <span>Terms & Conditions</span>
+                        <ul>
+                            <li>
+                                <span> About Us</span>
+                            </li>
+                            <li>
+                                <span>Contact</span>
+                            </li>
+                            <li>
+                                <span>Terms & Conditions</span>
+                            </li>
+                        </ul>
                     </td>
                     <td class="column">
-                        <span><i class="fa fa-facebook-f" style="font-size:16px;color: #fff; margin-right: 10px;"></i>Facebook</span><br>
-                        <span><i class="fa fa-twitter" style="font-size:16px;color: #fff; margin-right: 10px;"></i>Twitter</span><br>
-                        <span><i class="fa fa-instagram" style="font-size:16px;color: #fff; margin-right: 10px;"></i>Instagram</span>
+                        <ul>
+                            <li>
+                                <span><i class="fa fa-facebook-f" style="font-size:16px;color: #fff; margin-right: 10px;"></i>Facebook</span>
+                            </li>
+                            <li>
+                                <span><i class="fa fa-twitter" style="font-size:16px;color: #fff; margin-right: 10px;"></i>Twitter</span>
+                            </li>
+                            <li>
+                                <span><i class="fa fa-instagram" style="font-size:16px;color: #fff; margin-right: 10px;"></i>Instagram</span>
+                            </li>
+                        </ul>
+
+
+
                     </td>
                     <td class="column">
-                        <span>Subscribe to our newsletter</span><br>
-                        <input placeholder="Email Address" type="email"><button style="background-color: #E9967A;padding: 0px 15px; border-radius: 10px;">OK</button>
+                        <ul>
+                            <li> <span>Subscribe to our newsletter</span></li>
+                            <li>
+                                <input placeholder="Email Address" type="email"><button style="background-color: #E9967A;padding: 0px 15px; border-radius: 10px;">OK</button>
+                            </li>
+                        </ul>
+
+
                     </td>
                 </tr>
             </table>
